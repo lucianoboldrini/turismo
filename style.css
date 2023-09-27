@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to bottom, #0088cc, #0044cc);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Imagen de logo */
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.section img:hover {
+    transform: scale(1.1);
+}
+
+/* Mapa de Google */
+.ubicacion iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para la lista de información */
+ul.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+ul.list-unstyled li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background: #128c7e;
+}
+/* Estilos de los comentarios */
+.comentario {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.usuario img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.usuario p {
+    font-weight: bold;
+}
+
+.contenido {
+    font-size: 16px;
+}
+
+.puntuacion {
+    font-size: 14px;
+    color: #f39c12;
+}
+
+.fecha {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Eliminar el margen superior del primer comentario */
+.comentario:first-child {
+    margin-top: 0;
+}
